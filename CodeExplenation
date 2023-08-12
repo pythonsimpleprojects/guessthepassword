@@ -1,0 +1,7 @@
+CREATED BY AI
+
+The GuessThepasswordGUI class defines the structure of the GUI. The __init__ method initializes the window and its components, such as the password label, password entry field, guess button, and result label. The submit method is called when the user clicks the guess button. It retrieves the password entered by the user and checks if it matches the correct password. If the password is correct, the result label displays "You may enter". Otherwise, it displays "wrong password, try again".
+
+  The root variable creates a new instance of the Tk class, which is the main window of the application. The my_gui variable creates an instance of the GuessThepasswordGUI class, passing the root instance as an argument. Finally, the mainloop method starts the main event loop of the application, which waits for user input and updates the GUI accordingly.
+
+  
